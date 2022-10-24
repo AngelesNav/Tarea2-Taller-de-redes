@@ -1,6 +1,6 @@
 # Tarea2-Taller de redes y servicios
 
-##Información general
+## Información general
 En el siguiente documento, de deja registro de los pasos utilizados para establecer la conexion cliente-servidor en el protocolo MDNS.
 Primero se debe tener instalado docker en la consola de ubuntu
 

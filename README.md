@@ -16,14 +16,16 @@ Luego, para crear las imagenes e iniciar los contenedores, utilizando las siguie
 ```
 docker build -t server
 
-docker run -i server   
+docker run -it server   
 
 Mdns.Server.start
 ```
 Para el cliente:
 ```
 docker build -t client
-docker run -i client 
+
+docker run -it client 
+
 Mdns.Client.start
 ```
 ## Envio de paquetes

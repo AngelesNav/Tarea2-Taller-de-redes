@@ -14,12 +14,16 @@ Se deben copiar los dockerfile en carpeta Cliente y Servidor, segun corresponda.
 Luego, para crear las imagenes e iniciar los contenedores, utilizando las siguientes lineas de codigo, para el servidor: 
 
 ```
-docker build -t server}
+docker build -t server
+
+docker run -i server   
+
 Mdns.Server.start
 ```
 Para el cliente:
 ```
 docker build -t client
+docker run -i client 
 Mdns.Client.start
 ```
 ## Envio de paquetes
